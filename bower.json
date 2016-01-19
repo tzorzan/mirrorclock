@@ -1,0 +1,25 @@
+{
+  "name": "mirrorclock",
+  "version": "0.0.1",
+  "authors": [
+    "Tobia Zorzan <tobia.zorzan@gmail.com>"
+  ],
+  "description": "Clock in a mirror frame",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "clock",
+    "mirror",
+    "smart"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
