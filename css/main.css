@@ -95,22 +95,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: #000;
+    color: #FFF;
+}
 
+.mirrorclock {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.clock-time {
+    font-family: "Roboto";
+    font-size: 10em;
+    font-weight: 100;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
