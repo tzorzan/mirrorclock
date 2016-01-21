@@ -13,7 +13,6 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
 }
 
 /*
@@ -101,14 +100,21 @@ body {
 }
 
 .mirrorclock {
+    width: 800px;
     margin-top: 200px;
     margin-bottom: 200px;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.clock-date {
+    font-size: 6em;
+    line-height: 0.9em;
 }
 
 .clock-time {
-    font-family: "Roboto";
-    font-size: 10em;
-    font-weight: 100;
+    font-size: 11em;
+    line-height: 0.9em;
 }
 /* ==========================================================================
    Helper classes
