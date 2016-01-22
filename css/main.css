@@ -116,6 +116,39 @@ body {
     font-size: 11em;
     line-height: 0.9em;
 }
+
+.calendar-mark-container {
+    clear: both;
+    margin-top: 4em;
+}
+
+.calendar-mark {
+    float: left;
+    width: 14%;
+    min-height: 10px;
+}
+
+.highlight {
+    margin-bottom: 4px;
+    background-color: #FFF;
+    border-right: 1px solid #000;
+}
+
+.calendar-day-container {
+    clear: both;
+}
+
+.calendar-day {
+    float: left;
+    width: 14%;
+    height: 120px;
+    border-right: 1px solid #FFF;
+}
+
+.calendar-day:last-child {
+    border-right: none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
