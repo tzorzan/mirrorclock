@@ -3,7 +3,7 @@ $(document).ready(function() {
     setInterval('updateClock()', 500 );
 });
 
-var dayLabels = ['LUN', 'MAR', 'MER', 'GIO', 'VEN', 'SAB', 'DOM'];
+var dayLabels = ['DOM', 'LUN', 'MAR', 'MER', 'GIO', 'VEN', 'SAB'];
 
 function updateClock() {
     //Current Time Variables
